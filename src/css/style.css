@@ -1,6 +1,9 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+header {
+    position: relative;
+}
 nav {        
     height: 51px;
     background-color: #212121;
@@ -22,6 +25,8 @@ nav {
     padding-right: 28px;
 } 
 .subheader {
+    position: absolute;
+    width: 100%;
     height: 84px;
     background-color: rgba(0,0,0, .6);
 }
@@ -105,8 +110,7 @@ nav {
 }
 .promo_btn {
     display: block;
-    margin: 118px auto 0 auto;
-    
+    margin: 118px auto 0 auto;    
     width: 259px;
     height: 63px;
     background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
@@ -118,4 +122,20 @@ nav {
     font-weight: 400;
     text-transform: uppercase;
     color: #ffffff;
+}
+
+/* ----------------advantage------------------- */
+.advantage {
+    padding: ;
+}
+
+.advantage_header {
+    display: block;
+    width: 112px;
+    height: 26px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 11px;
+    color:#ffffff;
+    background-color:black
 }
